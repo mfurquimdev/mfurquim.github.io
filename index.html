@@ -30,6 +30,7 @@
 			alert("Function to change DIV.");
 			if (xmlhttp.readyState==4 && xmlhttp.status==200)
 			{
+				alert("Changing DIV.");
 				document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
 			}
 		});
@@ -56,8 +57,10 @@
 
 <div id="myDiv">
 	<h2>Only if you are my girlfriend!</h2>
+</div>
+<div id="parent">
 	<div id="child">
-		<button type="button" onclick="myFunction('myDiv','child')" value="Remove Element">Click Here</button>
+		<button type="button" onclick="myFunction('parent','child')" value="Remove Element">Click Here</button>
 	</div>
 </div>
 
