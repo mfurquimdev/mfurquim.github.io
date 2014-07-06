@@ -22,7 +22,7 @@
 		xmlhttp.send();
 	}
 
-	function myFunction()
+	function myFunction(parentDiv, childDiv)
 	{
 		loadXMLDoc("ajax_info.txt",function()
 		{
@@ -31,13 +31,33 @@
 				document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
 			}
 		});
+
+		if (childDiv == parentDiv)
+		{
+			alert("The parent div cannot be removed.");
+		}
+		else if (document.getElementById(childDiv))
+		{
+			var child = document.getElementById(childDiv);
+			var parent = document.getElementById(parentDiv);
+			parent.removeChild(child);
+		}
+		else
+		{
+			alert("Child div has already been removed or does not exist.");
+			return false;
+		}
 	}
 </script>
 </head>
 <body>
 
-<div id="myDiv"><h2>Only if you are my girlfriend!</h2></div>
-<button type="button" onclick="myFunction()">Click Here</button>
+<div id="myDiv">
+	<h2>Only if you are my girlfriend!</h2>
+	<div id="child">
+		<button type="button" onclick="myFunction('myDiv','child)" value="Remove Element">Click Here</button>
+	</div>
+</div>
 
 </body>
 </html>
