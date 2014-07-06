@@ -4,6 +4,7 @@
 <script>
 	function loadXMLDoc(url, cfunc)
 	{
+		alert("LoadXML Function.");
 		var xmlhttp;
 		
 		// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -26,6 +27,7 @@
 	{
 		loadXMLDoc("ajax_info.txt",function()
 		{
+			alert("Function to change DIV.");
 			if (xmlhttp.readyState==4 && xmlhttp.status==200)
 			{
 				document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
