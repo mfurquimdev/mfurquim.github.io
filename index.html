@@ -1,75 +1,66 @@
-<!DOCTYPE html>
 <html>
-<head>
-<script>
-	function loadXMLDoc(url, cfunc)
-	{
-		alert("LoadXML Function.");
-		var xmlhttp;
-		
-		// code for IE7+, Firefox, Chrome, Opera, Safari
-		if (window.XMLHttpRequest)
-		{
-			xmlhttp=new XMLHttpRequest();
-		}	
-		// code for IE6, IE5
-		else
-		{
-			xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-		}
 
-		xmlhttp.onreadystatechange=cfunc;
-		xmlhttp.open("GET",url,true);
-		xmlhttp.send();
-	}
+    <head>
+        <link rel='stylesheet' type='text/css' href='main.css' />
+    </head>
 
-	function myFunction(parentDiv, childDiv)
-	{
-		loadXMLDoc("ajax_info.txt",function()
-		{
-//			alert("Function to change DIV.");
-			if (xmlhttp.readyState==4 && xmlhttp.status==200)
-			{
-				alert("Changing DIV.");
-				document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-			}
-		});
+    <body>
+        <div class='hero'>
+            <h1>
+                Mateus Furquim
+            </h1>
 
-		if (childDiv == parentDiv)
-		{
-			alert("The parent div cannot be removed.");
-		}
-		else if (document.getElementById(childDiv))
-		{
-			var child = document.getElementById(childDiv);
-			var parent = document.getElementById(parentDiv);
-			parent.removeChild(child);
-		}
-		else
-		{
-			alert("Child div has already been removed or does not exist.");
-			return false;
-		}
-	}
-</script>
-</head>
-<body>
+            <h2>
+                Do not ask, just be happy to never have to find out
+            </h2>
+        </div>
 
-<div id="myDiv">
-	<h2>One Button Game</h2>
-	<p>Made by <a href="http://www.emanueleferonato.com/2014/07/30/html5-one-button-minigame-prototype-made-with-phaser/">Emanuele Feronato</a></p>
-</div>
+        <article>
+            <p>
+                Hi, I'm Mateus Furquim, a 22 yer old game developer from Brazil.Troubleshooting
+Exception: "TypeError: Unable to watch path"
 
-<form action="http://mfurquim.github.io/one_button_game.html">
-	<input type="submit" value="Go to game">
-</form>
+If you get following error with a big traceback right after Atom starts:
 
-<!--
-<div id="parent">
-	<div id="child">
-		<button type="button"  onclick="myFunction('parent','child')" value="Remove Element">Click Here</button>
-	</div>
-</div>
--->
-</body>
+  TypeError: Unable to watch path
+
+you have to increase number of watched files by inotify. For testing if this is the reason for this error you can issue
+
+  sudo sysctl fs.inotify.max_user_watches=32768
+
+and restart Atom. If Atom now works fine, you can make this setting permanent:
+
+  echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+
+            </p>
+        </article>
+
+        <div class='phonesection'>
+            <h3>
+                UI & UX Design
+            </h3>
+            <div class='row'>
+                <div class='col-4'>Hello 1</div>
+                <div class='col-4'>Hello 2</div>
+                <div class='col-4'>Hello 3</div>
+            </div>
+        </div>
+        <div>
+            <h3>There's something you should see...</h3>
+
+            <div class='col-4'>
+                <img src='' />
+                <p>Done App</p>
+                <a>linky</a>
+            </div>
+            <div class='col-4'> </div>
+            <div class='col-4'> </div>
+        </div>
+
+        <div>
+            <h4>Twitter</h4>
+
+        </div>
+    </body>
+
 </html>
