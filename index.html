@@ -1,66 +1,17 @@
+<!DOCTYPE html>
 <html>
-
     <head>
-        <link rel='stylesheet' type='text/css' href='main.css' />
+        <script type='text/javascript' id='lt_ws' src='http://localhost:42965/socket.io/lighttable/ws.js'></script>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Grandes Pontos</title>
     </head>
 
-    <body>
-        <div class='hero'>
-            <h1>
-                Mateus Furquim
-            </h1>
-
-            <h2>
-                Do not ask, just be happy to never have to find out
-            </h2>
-        </div>
-
-        <article>
-            <p>
-                Hi, I'm Mateus Furquim, a 22 yer old game developer from Brazil.Troubleshooting
-Exception: "TypeError: Unable to watch path"
-
-If you get following error with a big traceback right after Atom starts:
-
-  TypeError: Unable to watch path
-
-you have to increase number of watched files by inotify. For testing if this is the reason for this error you can issue
-
-  sudo sysctl fs.inotify.max_user_watches=32768
-
-and restart Atom. If Atom now works fine, you can make this setting permanent:
-
-  echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
-
-            </p>
-        </article>
-
-        <div class='phonesection'>
-            <h3>
-                UI & UX Design
-            </h3>
-            <div class='row'>
-                <div class='col-4'>Hello 1</div>
-                <div class='col-4'>Hello 2</div>
-                <div class='col-4'>Hello 3</div>
-            </div>
-        </div>
-        <div>
-            <h3>There's something you should see...</h3>
-
-            <div class='col-4'>
-                <img src='' />
-                <p>Done App</p>
-                <a>linky</a>
-            </div>
-            <div class='col-4'> </div>
-            <div class='col-4'> </div>
-        </div>
-
-        <div>
-            <h4>Twitter</h4>
-
-        </div>
+    <body bgcolor = "00475E">
+        <canvas id="myCanvas">
+            This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
     </body>
 
+    <script src = "Scripts/main.js" defer></script>
 </html>
