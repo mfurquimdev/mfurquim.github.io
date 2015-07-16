@@ -6,6 +6,7 @@ var canvas = null,
 function load() {
   context.fillText('Loading', 152, 152);
   context.drawImage(atlasJSON, 0, 0);
+  context.drawImage(atlasJSON, 2, 2, 42, 28, 150, 150, 42, 28);
 }
 
 var setup = function() {
@@ -42,4 +43,3 @@ function Drawable (spriteName, sx, sy, sw, sh) {
 var disc = new Drawable("Multi/disc_green.png", 2, 2, 42, 28);
 disc.drawDrawable(150, 150);
 */
-context.drawImage(atlasJSON, 2, 2, 42, 28, 150, 150, 42, 28);
