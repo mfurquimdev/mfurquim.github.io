@@ -1,7 +1,7 @@
 var canvas = null,
     context = null,
     atlasJSON = null,
-    url = "/home/mfurquim/Documents/Big Point/Assets/Assets.png";
+    url = "/Assets/Assets.png";
 
 function load() {
   context.fillText('Loading', 152, 152);
