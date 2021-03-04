@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Hotjar Tracking Code for mfurquim.dev -->
-    <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:2279888,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script type='text/javascript' id='lt_ws' src='http://localhost:42965/socket.io/lighttable/ws.js'></script>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
@@ -38,4 +27,27 @@
       </li>
     </ul>
   </body>
+  <!-- Hotjar Tracking Code for mfurquim.dev -->
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2279888,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  <!-- Install this snippet AFTER the Hotjar tracking code. -->
+  <script>
+  var userId = your_user_id || null; // Replace your_user_id with your own if available.
+  window.hj('identify', userId, {
+      // Add your own custom attributes here. Some EXAMPLES:
+      // 'Signed up': '2019—06-20Z', // Signup date in ISO-8601 format.
+      // 'Last purchase category': 'Electronics', // Send strings with quotes around them.
+      // 'Total purchases': 15, // Send numbers without quotes.
+      // 'Last purchase date': '2019-06-20Z', // Send dates in ISO-8601 format.
+      // 'Last refund date': null, // Send null when no value exists for a user.
+  });
+  </script>
 </html>
