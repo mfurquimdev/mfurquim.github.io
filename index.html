@@ -6,6 +6,25 @@
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
     <title>Mateus Furquim</title>
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+              el: "#bg",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              color: 0x#d8dee9,
+              backgroundColor: 0x#242933,
+              points: 12.00,
+              maxDistance: 14.00,
+              spacing: 16.00
+            })
+    </script>
   </head>
   <body>
     <div class="flex-container">
@@ -24,6 +43,11 @@
       </div>
       <script src="googly_eyes.js"></script>
     </div>
+
+    <div id="bg" class="flex-container">
+    </div>
+
+
 
     <div>
       <iframe id='kofiframe' src='https://ko-fi.com/mfurquimdev/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='mfurquimdev'></iframe>
