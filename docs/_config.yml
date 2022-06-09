@@ -1,6 +1,5 @@
 url: https://mfurquim.github.io
-baseurl: ""
-# baseurl: /agency-jekyll-theme/
+baseurl: /blog/
 
 # Site settings
 title: MFurquim Dev

@@ -1,9 +1,27 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 3B4252
-  secondary: 242933
-  secondary-dark: 2E3440
-  muted: 4C566A
+  secondary: 4C566A
+  # secondary: 242933
+  secondary-dark: ECEFF4
+  muted: D8DEE9
+  timeline:
+    line: D8DEE9
+  portfolio:
+    background: 2E3440
+    cross: ECEFF4
+  header:
+    title: ECEFF4
+  navbar:
+    brand: ECEFF4
+    background: 242933
+    color: 4C566A
+    focus-color: ECEFF4
+    focus-background: BF616A
+    active-color: E5E9F0
+    active-background: 434C5E
+    active-focus-color: ECEFF4
+    active-focus-background: 4C566A
 
 # Font Families
 font:

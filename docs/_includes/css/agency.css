@@ -32,7 +32,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
+    outline: 0
 }
 
 a {
@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.navbar.brand}};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -208,9 +208,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.navbar.color}};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -219,19 +219,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.navbar.focus-color}};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.navbar.active-color }};
+    background-color: #{{ site.data.template.color.navbar.active-background }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.navbar.active-focus-color }};
+    background-color: #{{ site.data.template.color.navbar.active-focus-background }};
 }
 
 @media(min-width:768px) {
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #{{ site.data.template.color.navbar.background}};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -267,9 +267,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #{{ site.data.template.color.header.title }};
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/black-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -349,9 +349,32 @@ section h3.section-subheading {
     }
 }
 
+#about,
+#services {
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/black-bg.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#portfolio{
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/black-bg.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 #portfolio .portfolio-item {
@@ -374,8 +397,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: rgba(46, 52, 64,.8); /* Fallback when no plugin support */
+    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .8);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -390,7 +413,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.data.template.color.portfolio.cross }};
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -407,7 +430,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.portfolio.background }};
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -446,7 +469,7 @@ section h3.section-subheading {
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #{{ site.data.template.color.timeline.line}};
 }
 
 .timeline>li {
@@ -497,7 +520,7 @@ section h3.section-subheading {
     border: 7px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
+    color: #ECEFF4;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -639,7 +662,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #ECEFF4;
 }
 
 .team-member h4 {
