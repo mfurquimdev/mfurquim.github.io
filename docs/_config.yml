@@ -21,17 +21,6 @@ people:
       url: https://www.instagram.com/mfurquimdev
 
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/mfurquimdev
-  - title: linkedin
-    url: https://www.linkedin.com/in/mmfurquim/
-  - title: instagram
-    url: https://www.instagram.com/mfurquimdev
-  - title: github
-    url: https://github.com/mfurquim
-
 # # Postal address (add as many lines as necessary)
 # address:
 #   - line: 3481 Melrose Place

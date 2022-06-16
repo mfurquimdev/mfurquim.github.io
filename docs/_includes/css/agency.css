@@ -655,6 +655,17 @@ section h3.section-subheading {
     }
 }
 
+#team{
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/black-bg.jpg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
