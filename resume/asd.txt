@@ -1,0 +1,12 @@
+Tecnologies used
+
+- Python
+- FastAPI
+- Celery
+- Cassandra
+- RabbitMQ
+- Redis
+- PostgreSQL
+- Flask
+- Tornado
+- Gino
