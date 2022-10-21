@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.4)  19 SEP 2022 14:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.5.4)  21 OCT 2022 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1322,9 +1322,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27757 strings out of 478238
- 547231 string characters out of 5850457
- 886649 words of memory out of 5000000
+ 27752 strings out of 478238
+ 547190 string characters out of 5850457
+ 878485 words of memory out of 5000000
  45490 multiletter control sequences out of 15000+600000
  787086 words of font info for 77 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1335,10 +1335,10 @@ enc/dvips/fontawesome/fontawesomeone.enc}</usr/share/texmf-dist/fonts/type1/pub
 lic/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/type1/typoland/lat
 o/Lato-Bold.pfb></usr/share/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.p
 fb>
-Output written on main.pdf (1 page, 93722 bytes).
+Output written on main.pdf (1 page, 93344 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 67 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
