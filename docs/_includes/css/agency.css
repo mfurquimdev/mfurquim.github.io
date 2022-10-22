@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #2E3440;
 }
 
 .navbar-default .navbar-brand {
@@ -269,7 +269,8 @@ header {
     text-align: center;
     color: #{{ site.data.template.color.header.title }};
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/black-bg.jpg');
+    /* background-image: url('{{ site.baseurl }}/img/black-bg.jpg'); */
+    background-color: #242933;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -352,7 +353,8 @@ section h3.section-subheading {
 #about,
 #services {
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/black-bg.jpg');
+    /* background-image: url('{{ site.baseurl }}/img/black-bg.jpg'); */
+    background-color: #242933;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -368,7 +370,8 @@ section h3.section-subheading {
 
 #portfolio{
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/black-bg.jpg');
+    background-color: #242933;
+    /* background-image: url('{{ site.baseurl }}/img/black-bg.jpg'); */
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -657,7 +660,8 @@ section h3.section-subheading {
 
 #team{
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/black-bg.jpg');
+    background-color: #242933;
+    /* background-image: url('{{ site.baseurl }}/img/black-bg.jpg'); */
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -691,8 +695,8 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-color: #242933;
+    /* background-image: url('{{ site.baseurl }}/img/map-image.png'); */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -756,6 +760,7 @@ section#contact .text-danger {
 }
 
 footer {
+    background-color: #2E3440;
     padding: 25px 0;
     text-align: center;
 }

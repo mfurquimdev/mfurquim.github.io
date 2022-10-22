@@ -8,7 +8,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div style="background-color:#242933;" class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
@@ -17,20 +17,20 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                <li>Serviço:
+                                    <strong>{{ post.category }}
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                <li>Data:
+                                    <strong>{{ post.project-date }}
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Repositório:
+                                    <strong><a href="{{ post.repo_link }}">{{ post.repo }}</a>
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
