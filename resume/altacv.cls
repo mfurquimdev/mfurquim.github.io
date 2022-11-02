@@ -42,14 +42,20 @@
 \RequirePackage{xcolor}
 
 
+\definecolor{NordPolarNight0}{HTML}{242933}
 \definecolor{NordPolarNight1}{HTML}{2e3440}
 \definecolor{NordPolarNight2}{HTML}{3b4252}
 \definecolor{NordPolarNight3}{HTML}{434c5e}
 \definecolor{NordPolarNight4}{HTML}{4c566a}
 
+
+\definecolor{WhiteBG}{HTML}{FBFBFC}
+\definecolor{NordSnowStorm0}{HTML}{f4f6f9}
 \definecolor{NordSnowStorm1}{HTML}{eceff4}
 \definecolor{NordSnowStorm2}{HTML}{e5e9f0}
 \definecolor{NordSnowStorm3}{HTML}{d8dee9}
+
+\pagecolor{WhiteBG}
 
 \definecolor{NordFrost1}{HTML}{5e81ac}
 \definecolor{NordFrost2}{HTML}{81a1c1}
@@ -67,6 +73,7 @@
 \colorlet{accent}{NordFrost1}
 \colorlet{emphasis}{NordPolarNight1}
 \colorlet{body}{NordPolarNight1}
+\colorlet{divider}{NordSnowStorm3}
 
 \colorlet{tech}{NordFrost2}
 \colorlet{description}{NordPolarNight1}
@@ -90,7 +97,7 @@
 % \RequirePackage{marginfix}
 
 \setlength{\parindent}{0pt}
-\newcommand{\divider}{\textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\bigskip}
+\newcommand{\divider}{\textcolor{divider}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\bigskip}
 
 \newenvironment{fullwidth}{%
   \begin{adjustwidth}{}{\dimexpr-\marginparwidth-\marginparsep\relax}}
