@@ -1,0 +1,103 @@
+{
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register-6cbf9231.js"
+  ],
+  "src/pages/README.md": [
+    "/assets/README-d96e249f.js"
+  ],
+  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_...all_-843fcc2b.js"
+  ],
+  "src/pages/[...all].vue": [
+    "/assets/_...all_-843fcc2b.js"
+  ],
+  "src/layouts/home.vue": [
+    "/assets/home-1e11efc9.js"
+  ],
+  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/404-10879e85.js"
+  ],
+  "src/layouts/404.vue": [
+    "/assets/404-10879e85.js"
+  ],
+  "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
+    "/assets/workbox-window.prod.es5-295a6886.js"
+  ],
+  "src/pages/about.md": [
+    "/assets/about-5cd85ecd.js"
+  ],
+  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_name_-7eabf7ef.js"
+  ],
+  "src/pages/hi/[name].vue": [
+    "/assets/_name_-7eabf7ef.js"
+  ],
+  "\u0000vite/modulepreload-polyfill": [],
+  "locales/en.yml": [],
+  "locales/es.yml": [],
+  "locales/pt-BR.yml": [],
+  "node_modules/.pnpm/@intlify+shared@9.2.2/node_modules/@intlify/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/.pnpm/@intlify+message-compiler@9.2.2/node_modules/@intlify/message-compiler/dist/message-compiler.esm-bundler.js": [],
+  "node_modules/.pnpm/@intlify+devtools-if@9.2.2/node_modules/@intlify/devtools-if/dist/devtools-if.esm-bundler.js": [],
+  "node_modules/.pnpm/@intlify+core-base@9.2.2/node_modules/@intlify/core-base/dist/core-base.esm-bundler.js": [],
+  "node_modules/.pnpm/@vue+shared@3.2.45/node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/.pnpm/@vue+reactivity@3.2.45/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/.pnpm/@vue+runtime-core@3.2.45/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/.pnpm/@vue+runtime-dom@3.2.45/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "node_modules/.pnpm/vue@3.2.45/node_modules/vue/dist/vue.runtime.esm-bundler.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.2.1/node_modules/@vue/devtools-api/lib/esm/env.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.2.1/node_modules/@vue/devtools-api/lib/esm/const.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.2.1/node_modules/@vue/devtools-api/lib/esm/time.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.2.1/node_modules/@vue/devtools-api/lib/esm/proxy.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.2.1/node_modules/@vue/devtools-api/lib/esm/index.js": [],
+  "node_modules/.pnpm/@intlify+vue-devtools@9.2.2/node_modules/@intlify/vue-devtools/dist/vue-devtools.esm-bundler.js": [],
+  "node_modules/.pnpm/vue-i18n@9.2.2_vue@3.2.45/node_modules/vue-i18n/dist/vue-i18n.runtime.esm-bundler.js": [],
+  "src/modules/i18n.ts": [],
+  "\u0000commonjsHelpers.js": [],
+  "\u0000/home/mfkn/projects/mfurquim/mfurquim.github.io/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js?commonjs-module": [],
+  "node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js": [],
+  "src/modules/nprogress.ts": [],
+  "node_modules/.pnpm/vue-demi@0.13.11_vue@3.2.45/node_modules/vue-demi/lib/index.mjs": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.4.5/node_modules/@vue/devtools-api/lib/esm/env.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.4.5/node_modules/@vue/devtools-api/lib/esm/const.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.4.5/node_modules/@vue/devtools-api/lib/esm/time.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.4.5/node_modules/@vue/devtools-api/lib/esm/proxy.js": [],
+  "node_modules/.pnpm/@vue+devtools-api@6.4.5/node_modules/@vue/devtools-api/lib/esm/index.js": [],
+  "node_modules/.pnpm/pinia@2.0.28_prq2uz4lho2pwp6irk4cfkrxwu/node_modules/pinia/dist/pinia.mjs": [],
+  "src/modules/pinia.ts": [],
+  "\u0000vite/preload-helper": [],
+  "src/modules/pwa.ts": [],
+  "node_modules/.pnpm/vue-router@4.1.6_vue@3.2.45/node_modules/vue-router/dist/vue-router.mjs": [],
+  "node_modules/.pnpm/hookable@5.4.2/node_modules/hookable/dist/index.mjs": [],
+  "node_modules/.pnpm/@unhead+vue@1.0.13_vue@3.2.45/node_modules/@unhead/vue/dist/index.mjs": [],
+  "node_modules/.pnpm/@unhead+dom@1.0.13/node_modules/@unhead/dom/dist/index.mjs": [],
+  "node_modules/.pnpm/@vueuse+head@1.0.22_vue@3.2.45/node_modules/@vueuse/head/dist/index.mjs": [],
+  "node_modules/.pnpm/vite-ssg@0.22.1_sgsf6uhunmr36zwbcfhkgzqpdu/node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [],
+  "node_modules/.pnpm/vite-ssg@0.22.1_sgsf6uhunmr36zwbcfhkgzqpdu/node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [],
+  "node_modules/.pnpm/vite-ssg@0.22.1_sgsf6uhunmr36zwbcfhkgzqpdu/node_modules/vite-ssg/dist/index.mjs": [],
+  "node_modules/.pnpm/@vueuse+shared@9.6.0_vue@3.2.45/node_modules/@vueuse/shared/index.mjs": [],
+  "node_modules/.pnpm/@vueuse+core@9.6.0_vue@3.2.45/node_modules/@vueuse/core/index.mjs": [],
+  "src/composables/dark.ts": [],
+  "src/components/TheFooter.vue?vue&type=script&setup=true&lang.ts": [],
+  "\u0000plugin-vue:export-helper": [],
+  "src/components/TheFooter.vue": [],
+  "src/layouts/default.vue": [],
+  "../../../../../@vite-plugin-vue-layouts/generated-layouts": [],
+  "\u0000virtual:vue-component-preview": [],
+  "src/App.vue?vue&type=script&setup=true&lang.ts": [],
+  "src/App.vue": [],
+  "../../../../../plugin-define-model/use-vmodel": [],
+  "src/components/TheInput.vue?vue&type=script&setup=true&lang.ts": [],
+  "src/components/TheInput.vue": [],
+  "src/stores/user.ts": [],
+  "src/pages/index.vue?vue&type=script&setup=true&lang.ts": [],
+  "../../../../../@vite-plugin-pages/route-block": [],
+  "src/pages/index.vue": [],
+  "../../../../../@vite-plugin-pages/generated-pages?id=~pages": [],
+  "node_modules/.pnpm/@unocss+reset@0.47.6/node_modules/@unocss/reset/tailwind.css": [],
+  "src/styles/main.css": [],
+  "../../../../../__uno.css": [],
+  "src/main.ts": [],
+  "index.html": [],
+  "assets/app-!~{001}~.js-unocss-hash.css": []
+}
